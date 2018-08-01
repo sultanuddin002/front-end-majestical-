@@ -1,0 +1,276 @@
+/* Custom code here */
+
+/**************** Base ****************/
+
+html, h1, h2, h3, h4, h5, h6, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #282828;
+    /* height: 200vh; */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff;
+}
+
+.tm-padding-body {
+    padding: 45px;
+}
+
+.tm-color-primary {
+    color: #ee802f;
+}
+
+.tm-color-dark {
+    color: #252525;
+}
+
+.tm-color-text-dark {
+    color: #707070!important;
+}
+
+.tm-color-dark-bg {
+    background-color: #252525;
+    color: #ffffff;
+    border: none;
+    font-weight: normal;
+}
+
+.tm-color-dark-bg:hover {
+    background-color: #ee802f;
+    color: #ffffff;
+    border: none;
+}
+
+.tm-color-primary.bg {
+    background-color: #ee802f;
+}
+
+/**************** Navbar - Menu ****************/
+
+.tm-navbar-bg {
+    background-color: #3f3f3f!important;
+    padding: 5px 0 10px 0;
+}
+
+nav .tm-navbar {
+    background-color: transparent;
+}
+
+.tm-navbar-nav li a {
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-right: 1px solid #ffffff;
+    height: 40px;
+    margin-top: 1px
+}
+
+.tm-navbar-nav li a:hover {
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.tm-navbar-nav li.tm-active a {
+    color: #ee802f;
+}
+
+.tm-navbar-nav li a:hover {
+    background-color: transparent;
+}
+
+.tm-navbar-nav li:last-child a {
+    border-right: none
+}
+
+/**************** Navbar - Social ****************/
+
+.tm-social-icons {
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+/**************** Header - Logo ****************/
+
+.tm-logo h1, .tm-logo p {
+    display: inline;
+}
+
+.tm-logo p {
+    margin-left: 20px;
+}
+
+.tm-logo a {
+    text-decoration: none;
+}
+
+/**************** Header - Search ****************/
+
+input[type="text"].tm-searchbar {
+    border-radius: 0px;
+    margin: -4px;
+    background-color: #363636;
+    border: none;
+}
+
+.tm-search-button {
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+hr.tm-header-divider {
+    border: 2px solid #303030;
+    margin-top: -20px
+}
+
+div.uk-grid.tm-logo {
+    margin-top: -1px
+}
+
+/**************** Slider  ****************/
+
+.tm-slider-width {
+    width: 100%;
+}
+
+ul.tm-slider {
+    margin-left: -35px
+}
+
+/**************** Main body content  ****************/
+
+.tm-body-content {
+    border-top: 20px solid #ee802f;
+    background-color: #f0f0f0;
+}
+
+div.uk-grid.tm-body-content {
+    margin-top: 0px;
+}
+
+/**************** Breadcrumbs  ****************/
+
+.tm-breadcrumbs {
+    margin-top: -35px;
+    border-left: 0
+}
+
+/**************** Intro Section  ****************/
+
+.tm-custom-container {
+    width: 98%;
+    margin-left: -5px
+}
+
+/**************** Intro Section - Heading  ****************/
+
+.tm-shout h1 {
+    color: #dddddd;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+/**************** Intro Section - BlockQuote  ****************/
+
+.tm-shout p {
+    color: #bcbcbc;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.tm-shout {
+    border-radius: 0px;
+}
+
+div.uk-grid.tm-shout blockquote:before {
+    margin-top: -35px;
+    color: #bcbcbc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+div.uk-grid.tm-shout blockquote:after {
+    margin-top: -35px;
+    color: #bcbcbc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+div.uk-grid.tm-shout blockquote p {
+    display: inline
+}
+
+div.uk-grid.tm-shout blockquote {
+    border-left: 0;
+}
+
+/**************** Intro Section - Testimonials  ****************/
+
+.tm-testimonials h2, .tm-testimonials blockquote h3 {
+    color: #707070;
+    text-transform: capitalize
+}
+
+.tm-testimonials p {
+    color: #bcbcbc;
+}
+
+.tm-testimonials blockquote {
+    border-left: 0
+}
+
+.tm-testimonials blockquote h3 {
+    display: inline
+}
+
+.tm-testimonials blockquote:before {
+    margin-top: -35px;
+    color: #bcbcbc;
+    content: open-quote;
+    font-size: 100px;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.tm-testimonials blockquote:after {
+    color: #ffffff;
+    content: close-quote;
+}
+
+/**************** Intro Section - About Team  ****************/
+
+.tm-team h2 {
+    color: #707070;
+    text-transform: capitalize
+}
+
+/**************** Footer Section  ****************/
+
+div.uk-grid.uk-block.uk-block-primary.tm-color-dark-bg{
+    margin-top:0
+}
+
+/**************** Copyright Section  ****************/
+
+.tm-copyright {
+    background-color: #000000;
+}
+
+div.uk-grid.uk-block-secondary.tm-copyright {
+    margin-top: 0px;
+}
+
+.tm-copyright-left p, .tm-copyright-right p {
+    margin-top: 15px;
+}
